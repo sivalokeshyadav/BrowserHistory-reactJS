@@ -1,0 +1,39 @@
+.list-items-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.items-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.item-name-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.name {
+  color: #2c3341;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.domain-name {
+  color: #64748b;
+}
+
+.button {
+  background-color: transparent;
+  border-width: 0px;
+  padding-left: 80px;
+}
